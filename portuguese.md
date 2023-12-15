@@ -217,20 +217,22 @@ Se tiver qualquer dúvida, entre em contato com o suporte da Easy Comtec.
 <div id='id-component'/>
  
 ## COMPONENTES 🧱
-São 30 componentes que iremos aprender a utilizar, são eles:
+São 48 componentes que iremos aprender a utilizar, são eles:
 <table>
  <tr>
   <td>Textfield</td>
-  <td>TextArea</td>
+  <td>Textarea</td>
   <td>Editor</td>
   <td>Hidden</td>
   <td>Integer</td>
   <td>Decimal</td>
+  <td>ProgressBar</td>
+  <td>Gantt</td>
   <td>Date</th>
-  <td>DateTime</td>
-  <td>Time</th>
  </tr>
  <tr>
+  <td>DateTime</td>
+  <td>Time</td>
   <td>Checkbox</td>
   <td>ChecklistDB</td>
   <td>Radio</td>
@@ -238,24 +240,44 @@ São 30 componentes que iremos aprender a utilizar, são eles:
   <td>DropdownDB</td>
   <td>AutoComplete</td>
   <td>Label</td>
-  <td>Box</td>
-  <td>Signature</td>
  </tr>
  <tr>
+  <td>Wizard</td>
+  <td>Tab</td>
+  <td>Box</td>
+  <td>Signature</td>
   <td>Static Image</td>
   <td>Upload Image</td>
   <td>File Upload</td>
   <td>One-To-Many</td>
-  <td>Multitag</td>
-  <td>Additional Data</td>
-  <td>Button</td>
-  <td>HTML FIeld</td>
-  <td>Quiz</td>
+  <td>Multi Upload</td>
  </tr>
  <tr>
+  <td>Multi-tag</td>
+  <td>Additional Data</td>
+  <td>Button</td>
+  <td>HTML Field</td>
+  <td>Quiz</td>
   <td>Email</td>
   <td>Password</td>
   <td>Horizontal Line</td>
+  <td>Repeater</td>
+ </tr>
+ <tr>
+  <td>Video Call</td>
+  <td>Page View</td>
+  <td>Chat</td>
+  <td>Location</td>
+  <td>Chart</td>
+  <td>Multi-Select</td>
+  <td>Tree View</td>
+  <td>Grid</td>
+  <td>Calendar</td>
+ </tr>
+ <tr>
+  <td>Twilio Caller</td>
+  <td>Kanban Board</td>
+  <td>Carousel</td>
  </tr>
 </table>
 
@@ -693,6 +715,27 @@ No “Number1” insira o valor “2.55”, e no “Number2” insira o valor �
 
 Após adicionar os valores, clique no botão ![image](https://user-images.githubusercontent.com/81401104/115919054-b3731480-a44e-11eb-9cd3-02fef99ed26b.png)
 .
+
+<div id='id-ProgressBar'/>
+
+## ProgressBar 📶
+
+O componente "Progress Bar" cria uma barra de progresso com um valor definido previamente. 
+
+Selecione o componente, arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar). 
+
+## ProgressBar 📶 > VALUES
+
+Em "Default Value", insira o valor de progresso da barra.
+
+## ProgressBar 📶 > OTHERS
+
+Em "Unit", defina a unidade de referência da barra. O mais comum é o uso da porcentagem (%).
+
+Execute a aplicação.
+
+Ao criar um novo registro, o componente estará disposto dessa maneira:
+
 
 <div id='id-Date'/>
 
@@ -1876,26 +1919,6 @@ Agora volte para a tela do "PageChat" clique no botão ![image](./BuilderImages/
 é assim que fica o seu chat pronto como na imagem abaixo:
 
 ![image](./BuilderImages/chatpage.png)
-
-<div id='id-Location'/>
-
-## Location 🗺️
-
-O componente "Location" captura sua localização atual de maneira precisa.
-
-Selecione o componente "Location", arrastando-o e soltando-o onde está escrito "Drop new field here!". 
-
-Ao adicionar o componente ao formulário, você perceberá que ele é apenas um mapa, com a única função de exibir sua localização.
-
-Para armazená-la, insira o componente "Textfield" ao lado do "Location".
-
-Em seguida execute o formulário, clicando no botão "Run", e crie um novo registro.
-
-Não faça nenhuma inserção, apenas clique no botão Save & Close. 
-
-Perceba que sua localização ficará salva na grid do form em detalhes, incluindo informações como cidade, bairro, nome da rua, CEP, etc.
-
-⚠️ AVISO: Para que o componente funcione corretamente, certifique-se de permitir em seu navegador que o Builder acesse suas informações de localização.
 
 <div id='id-form'/>
 
